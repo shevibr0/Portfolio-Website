@@ -1,0 +1,45 @@
+.massage__container{
+    max-width: 600px;
+    margin: auto;
+  
+}
+
+.contact__options{
+    display: flex;
+    flex-direction:row;
+    gap: 1.2rem;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .contact__option{
+        background-color:rgb(199, 223, 244);
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+    .contact__option:hover{
+    background: transparent;
+    
+    }
+   h4{
+    font-size: var(----h2-font-size);
+    margin-bottom: 1.2rem;
+   }
+   h5{
+    font-size: var(----h3-font-size);
+    margin-bottom: 1rem;
+   }
+   a{
+    font-size: var(----h3-font-size);
+    margin-bottom: 1rem;
+   }
+
+   @media screen and (max-width :768px) {
+    .contact__options{
+        flex-direction:column;
+        width: 80%;
+        margin: auto;
+    }
+}
